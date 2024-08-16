@@ -181,7 +181,7 @@ export default function HomePage() {
           }}
         >
           <Toolbar />
-          <Typography variant='h2' fontFamily='"Calistoga", serif' color={"white"}>Voucher</Typography>
+          <Typography variant='h2' fontFamily='"Calistoga", serif' color={"white"}>NFT</Typography>
           <ProductList />
         </Box>
       </Box>

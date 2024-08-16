@@ -25,7 +25,7 @@ export function CreateVoucherForm() {
       // Gọi hàm CreateVoucher và chờ kết quả
       const res = await gameshiftService.CreateVoucher(email, name, image, description);
       console.log('res: ', res);
-      alert('Voucher created successfully!');
+      alert('NFT created successfully!');
       router('/list'); // Điều hướng sau khi thành công
     } catch (error) {
       console.log('error: ', error);
